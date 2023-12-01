@@ -43,7 +43,7 @@ const movieSchema = new mongoose.Schema({
   },
   fullMovie: {
     type: String,
-    select: false, // Hide by default for unauthorized users
+    select: false, 
 },
   category: {
     type: String,
